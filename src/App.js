@@ -11,7 +11,7 @@ export default function App() {
       <Route exact path='/'>
         <WelcomePage />
       </Route>
-      <Route path='/characters'>
+      <Route exact path='/characters'>
         <CharacterList />
       </Route>
 
